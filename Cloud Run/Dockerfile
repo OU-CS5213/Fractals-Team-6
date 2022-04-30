@@ -1,8 +1,20 @@
-#FROM python:3-slim
-FROM python:2-slim
+FROM python:3.8
+
+ENV PORT 80
+ENV HOST 0.0.0.0
+
+EXPOSE 80
+
+RUN apt-get update -y && \
+    apt-get install -y python3-pip
+
+COPY ./requirements.txt /app/requirements.txt
+
 WORKDIR /app
-COPY requirements.txt .
+
 RUN pip install -r requirements.txt
-COPY . .
-ENTRYPOINT ["python", "main.py"]
-#ENTRYPOINT exec gunicorn -b :$PORT -w 2 main:app
+
+COPY . /app
+
+
+ENTRYPOINT ["python", "app.py"]
