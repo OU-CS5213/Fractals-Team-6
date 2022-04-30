@@ -1,13 +1,4 @@
-# Cloud Run deployment
-
----
-marp: true
-title: Project - Python with GCP 
-paginate: true 
-theme: gaia
----
-
-# Project - Python with GCP
+# Cloud Run deployment - [Project - Python with GCP]
 
 ---
 
@@ -50,7 +41,30 @@ theme: gaia
     Here is the workflow that depicts the automation process
     
     
-    ![Web 1920 – 2](https://user-images.githubusercontent.com/52027911/166115588-7f67abc3-4948-4efc-8943-2e19f2e33aed.png)
+![Web 1920 – 2](https://user-images.githubusercontent.com/52027911/166115588-7f67abc3-4948-4efc-8943-2e19f2e33aed.png)
 
+- First, we create a git repository and add all the required files to the repository.
+- We must configure the cloudbild.yaml accordingly to your projectid.
+<img width="819" alt="Screen Shot 2022-04-30 at 12 27 20 PM" src="https://user-images.githubusercontent.com/98420519/166116020-4a16844c-1fca-48f3-8cbb-f85ad80ee58e.png">
+    
+Cloud Docs - https://cloud.google.com/build/docs/deploying-builds/deploy-cloud-run
+
+- Now we must create a trigger using cloud build api. The trigger fires when a change is made to the git repository. we must add repository in order to trigger the event.
+    
+<img width="1433" alt="Screen Shot 2022-04-30 at 12 31 41 PM" src="https://user-images.githubusercontent.com/98420519/166116150-72554604-6744-482b-b6a9-3a61844f9cc9.png">
+
+- Now every time we create changes and push to a commit it'll trigger event creates a docker image (latest)
+    
+![image](https://user-images.githubusercontent.com/52027911/166116361-a151ec3c-78d6-4ad8-ba0b-6042adea8d18.png)
+    
+- A new revision will be added on the cloud run after creation of latest images.
+    
+![image](https://user-images.githubusercontent.com/52027911/166116426-6678d834-1e46-4c8d-9b4a-89b1029aff85.png)
+And Updates are made and changes can be viewed in the latest revision.
+    
+Here is the actual GitHUB-https://github.com/bhargavvummadi/demo-fractals  repo used for automation.
+    
+    
+    
 
 
