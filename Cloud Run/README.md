@@ -58,10 +58,11 @@ Cloud Docs - https://cloud.google.com/build/docs/deploying-builds/deploy-cloud-r
 ![image](https://user-images.githubusercontent.com/52027911/166116361-a151ec3c-78d6-4ad8-ba0b-6042adea8d18.png)
     
 - A new revision will be added on the cloud run after creation of latest images.
+    
 ![image](https://user-images.githubusercontent.com/52027911/166116426-6678d834-1e46-4c8d-9b4a-89b1029aff85.png)
 And Updates are made and changes can be viewed in the latest revision.
     
-    Here is the actual GitHUB-https://github.com/bhargavvummadi/demo-fractals  repo used for automation.
+Here is the actual GitHUB-https://github.com/bhargavvummadi/demo-fractals  repo used for automation.
     
     
     
