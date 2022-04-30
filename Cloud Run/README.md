@@ -62,5 +62,17 @@ Cloud Docs - https://cloud.google.com/build/docs/deploying-builds/deploy-cloud-r
     
 <img width="1433" alt="Screen Shot 2022-04-30 at 12 31 41 PM" src="https://user-images.githubusercontent.com/98420519/166116150-72554604-6744-482b-b6a9-3a61844f9cc9.png">
 
-- 
+- Now every time we create changes and push to a commit it'll trigger event creates a docker image (latest)
+    
+![image](https://user-images.githubusercontent.com/52027911/166116361-a151ec3c-78d6-4ad8-ba0b-6042adea8d18.png)
+    
+- A new revision will be added on the cloud run after creation of latest images.
+    ![image](https://user-images.githubusercontent.com/52027911/166116426-6678d834-1e46-4c8d-9b4a-89b1029aff85.png)
+And Updates are made and changes can be viewed in the latest revision.
+    
+    Here is the actual GitHUB-https://github.com/bhargavvummadi/demo-fractals  repo used for automation.
+    
+    
+    
+
 
