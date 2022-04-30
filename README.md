@@ -9,5 +9,5 @@
   <h4> Individual READMES.md are availabe in respective folders</h4>
   
  
-  <h3>README.md - Cloud Run  <a href="" target="_blank">Visit W3Schools</a> </h3>
-  <h3>README.md - Cloud Build <a href="" target="_blank">Visit W3Schools</a> </h3>
+  <h3>README.md - <a href="https://github.com/OU-CS5213/Fractals-Team-6/blob/main/Cloud%20Run/README.md" target="_blank">Cloud Run</a> </h3>
+  <h3>README.md - <a href="" target="_blank">Cloud Functions</a> </h3>
