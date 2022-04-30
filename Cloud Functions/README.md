@@ -59,7 +59,7 @@
 
 - Create the Cloud Function using the below command:
 
-Command: gcloud functions deploy fractals --runtime python39 --trigger-http --allow-unauthenticated
+`Command: gcloud functions deploy fractals --runtime python39 --trigger-http --allow-unauthenticated`
 
 ## Code Changes 
 
