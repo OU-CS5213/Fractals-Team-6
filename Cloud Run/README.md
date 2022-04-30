@@ -52,5 +52,15 @@ theme: gaia
     
     ![Web 1920 – 2](https://user-images.githubusercontent.com/52027911/166115588-7f67abc3-4948-4efc-8943-2e19f2e33aed.png)
 
+- First, we create a git repository and add all the required files to the repository.
+- We must configure the cloudbild.yaml accordingly to your projectid.
+<img width="819" alt="Screen Shot 2022-04-30 at 12 27 20 PM" src="https://user-images.githubusercontent.com/98420519/166116020-4a16844c-1fca-48f3-8cbb-f85ad80ee58e.png">
+    
+Cloud Docs - https://cloud.google.com/build/docs/deploying-builds/deploy-cloud-run
 
+- Now we must create a trigger using cloud build api. The trigger fires when a change is made to the git repository. we must add repository in order to trigger the event.
+    
+<img width="1433" alt="Screen Shot 2022-04-30 at 12 31 41 PM" src="https://user-images.githubusercontent.com/98420519/166116150-72554604-6744-482b-b6a9-3a61844f9cc9.png">
+
+- 
 
