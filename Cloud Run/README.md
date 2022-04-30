@@ -1,13 +1,4 @@
-# Cloud Run deployment
-
----
-marp: true
-title: Project - Python with GCP 
-paginate: true 
-theme: gaia
----
-
-# Project - Python with GCP
+# Cloud Run deployment - [Project - Python with GCP]
 
 ---
 
@@ -50,7 +41,7 @@ theme: gaia
     Here is the workflow that depicts the automation process
     
     
-    ![Web 1920 – 2](https://user-images.githubusercontent.com/52027911/166115588-7f67abc3-4948-4efc-8943-2e19f2e33aed.png)
+![Web 1920 – 2](https://user-images.githubusercontent.com/52027911/166115588-7f67abc3-4948-4efc-8943-2e19f2e33aed.png)
 
 - First, we create a git repository and add all the required files to the repository.
 - We must configure the cloudbild.yaml accordingly to your projectid.
