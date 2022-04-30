@@ -24,7 +24,7 @@ SOURCE, TARGET = ('en', 'English'), ('es', 'Spanish')
 
 
 @app.route('/', methods=['GET', 'POST'])
-def translate(gcf_request=None):
+def fractals(gcf_request=None):
     """
     main handler - show form and possibly previous translation
     """
